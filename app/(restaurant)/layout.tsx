@@ -1,0 +1,13 @@
+// Layout protegido para restaurantes — aquí irá el middleware check de sesión
+export default function RestaurantLayout({
+  children,
+}: {
+  children: React.ReactNode;
+}) {
+  return (
+    <div className="min-h-screen bg-gray-50">
+      {/* TODO: Sidebar / Navbar para panel restaurante */}
+      <main className="max-w-7xl mx-auto px-4 py-6">{children}</main>
+    </div>
+  );
+}
