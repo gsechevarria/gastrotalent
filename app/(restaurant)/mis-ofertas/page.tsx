@@ -12,7 +12,7 @@ export default function OfertasPage() {
           <p className="text-gray-500 text-sm mt-1">Gestiona tus publicaciones activas</p>
         </div>
         <Link
-          href="/ofertas/nueva"
+          href="/mis-ofertas/nueva"
           className="bg-orange-500 hover:bg-orange-600 text-white font-semibold px-4 py-2 rounded-lg text-sm transition-colors"
         >
           + Nueva oferta
@@ -23,7 +23,7 @@ export default function OfertasPage() {
       <div className="bg-white rounded-xl border border-gray-100 p-8 text-center shadow-sm">
         <p className="text-gray-400">No tienes ofertas publicadas aún.</p>
         <Link
-          href="/ofertas/nueva"
+          href="/mis-ofertas/nueva"
           className="mt-4 inline-block text-orange-500 hover:underline text-sm font-medium"
         >
           Publica tu primera oferta →
